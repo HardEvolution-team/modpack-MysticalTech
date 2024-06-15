@@ -1,0 +1,354 @@
+{
+  "version": 2,
+  "location": "contenttweaker:blast_furnace_controller",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 8,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:blast_bricks",
+        "frontTexture": "multiblocked:multifurnace_off",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "multiblocked:blast_bricks",
+        "frontTexture": "multiblocked:multifurnace_on",
+        "type": "gregtech"
+      },
+      "lightEmissive": 7,
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "blast_furnace",
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      [
+        "     AAA ",
+        "     ABA ",
+        "      A  ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      [
+        "     AAA ",
+        "     CDC ",
+        "     AAA ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      [
+        "     AAA ",
+        "     ACA ",
+        "      A  ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      [
+        "      A  ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      [
+        "     AAA ",
+        "     AAA ",
+        "     AAA ",
+        "      A  ",
+        "      A  ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      [
+        "AAA AAAAA",
+        "ACA A   A",
+        " A  A   A",
+        "     AAA ",
+        "     AAA ",
+        "     AAA ",
+        "      A  ",
+        "      A  ",
+        "      A  "
+      ],
+      [
+        "AAAAAAAAA",
+        "EDC A   @",
+        "AAA A   A",
+        "    AA AA",
+        "    AA AA",
+        "     A A ",
+        "     A A ",
+        "     A A ",
+        "     A A "
+      ],
+      [
+        "AAA AAAAA",
+        "ACA A   A",
+        " A  A   A",
+        "     AAA ",
+        "     AAA ",
+        "     AAA ",
+        "      A  ",
+        "      A  ",
+        "      A  "
+      ],
+      [
+        "     AAA ",
+        "     AAA ",
+        "     AAA ",
+        "      A  ",
+        "      A  ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      [
+        "      A  ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      [
+        "     AAA ",
+        "     ACA ",
+        "      A  ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      [
+        "     AAA ",
+        "     CDC ",
+        "     AAA ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      [
+        "     AAA ",
+        "     AFA ",
+        "      A  ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "contenttweaker:blast_bricks",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "contenttweaker:blast_furnace_controller",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "contenttweaker:input_bus_t2_mk2",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "contenttweaker:bronze_casing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "minecraft:water",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "contenttweaker:input_fluid_bus_t1_mk1",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "contenttweaker:output_bus_t2_mk1",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "OUT"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ]
+    }
+  }
+}

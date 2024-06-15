@@ -1,0 +1,39 @@
+{
+    "conditions": [
+        {
+            "type": "forge:and",
+            "values": [
+                {
+                    "type": "appliedenergistics2:part_exists",
+                    "part": "part.interface_terminal"
+                },
+				{
+                    "type": "appliedenergistics2:material_exists",
+                    "material": "material.cell1k_part"
+                },
+				{
+                    "type": "appliedenergistics2:part_exists",
+                    "part": "part.interface_terminalimp"
+                }
+            ]
+        }
+    ],
+    "result": {
+        "type": "appliedenergistics2:part",
+        "part": "part.interface_terminalimp"
+    },
+    "type": "appliedenergistics2:part_shapeless",
+    "ingredients": [
+        {
+            "type": "appliedenergistics2:part",
+            "part": "part.interface_terminal"
+        },
+        {
+			"type": "appliedenergistics2:part",
+			"part": "material.cell1k_part"
+        },
+        {
+            "item": "appliedenergistics2:interfaceimp"
+        }
+    ]
+}

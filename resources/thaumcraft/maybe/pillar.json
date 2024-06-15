@@ -1,0 +1,46 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "thaumcraft:blocks/pillar_normal",
+		"particle": "thaumcraft:blocks/pillar_normal"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [12, 7.5, 16, 9.5], "texture": "#0"},
+				"east": {"uv": [12, 5.25, 16, 7.25], "texture": "#0"},
+				"south": {"uv": [12, 7.5, 16, 9.5], "texture": "#0"},
+				"west": {"uv": [12, 9.75, 16, 11.75], "texture": "#0"},
+				"up": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"down": {"uv": [12, 12, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 8, 2],
+			"to": [14, 13, 14],
+			"faces": {
+				"north": {"uv": [12.5, 4, 15.5, 5.25], "texture": "#0"},
+				"east": {"uv": [12.5, 4, 15.5, 5.25], "texture": "#0"},
+				"south": {"uv": [12.5, 4, 15.5, 5.25], "texture": "#0"},
+				"west": {"uv": [12.5, 4, 15.5, 5.25], "texture": "#0"},
+				"up": {"uv": [8.5, 12.5, 11.5, 15.5], "texture": "#0"},
+				"down": {"uv": [8.5, 12.5, 11.5, 15.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 13, 4],
+			"to": [12, 29, 12],
+			"faces": {
+				"north": {"uv": [13, 0, 15, 4], "texture": "#0"},
+				"east": {"uv": [13, 0, 15, 4], "texture": "#0"},
+				"south": {"uv": [13, 0, 15, 4], "texture": "#0"},
+				"west": {"uv": [13, 0, 15, 4], "texture": "#0"},
+				"up": {"uv": [6.25, 13, 8.25, 15], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#missing"}
+			}
+		}
+	]
+}

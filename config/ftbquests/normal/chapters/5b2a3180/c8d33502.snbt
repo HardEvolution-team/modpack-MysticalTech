@@ -1,0 +1,35 @@
+{
+	x: 7.5d,
+	y: -1.5d,
+	dependencies: [
+		"0ac9e34c"
+	],
+	tasks: [{
+		uid: "c891824b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:part_cell"
+		}]
+	},
+	{
+		uid: "273258d8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cell_workbench_19"
+		}]
+	},
+	{
+		uid: "1c102b54",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cell_workbench_49"
+		}]
+	},
+	{
+		uid: "3b0410b0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cell_workbench"
+		}]
+	}]
+}

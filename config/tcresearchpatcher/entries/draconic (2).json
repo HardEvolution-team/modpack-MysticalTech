@@ -1,0 +1,39 @@
+{
+    "entries" :[
+        {
+        
+        "key": "MANASTEEL_INGOT",
+        "name": "Manasteel",       
+        "icons": [ "botania:textures/items/manasteel_ingot.png"],
+        "category": "DRACONIC", "location": [ 0,0 ],
+        "parents": [ "!gotthaumonomicon" ],
+        "meta": [ "ROUND", "HIDDEN" ],
+        
+        "stages": [
+                {
+                    "text": "卐",
+                    "required_item":["contenttweaker:refractory_bricks"]
+                }
+            ]
+        },
+
+        {
+        
+            "key": "DRACONIUM_INGOT",
+            "name": "Draconic",       
+            "icons": [ "draconicevolution:textures/items/components/draconic_ingot.png"],
+            "category": "DRACONIC", "location": [ 0,2 ],
+            "parents": [ "MANASTEEL_INGOT" ],
+            "meta": [ "ROUND", "HIDDEN" ],
+            
+            "stages": [
+                    {
+                        "text": "UwU",
+                        "recipes": ["thaumcraft:07"],
+                        "required_item":["contenttweaker:bronze_machine_patern_01"]
+                    }
+                ]
+            }
+    ]
+}
+    

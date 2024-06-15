@@ -1,0 +1,158 @@
+{
+  "version": 2,
+  "location": "mod_id:component_id",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "extrautils2:decorativesolid",
+          "meta": 8
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "state": {
+          "id": "minecraft:sand",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "state": {
+          "id": "minecraft:gravel",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "9260f6c3-9dbf-407a-9958-3816507dce7b",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "   A   "
+      ],
+      [
+        "  ABA  "
+      ],
+      [
+        " AB BA "
+      ],
+      [
+        "AB @ BA"
+      ],
+      [
+        " AB BA "
+      ],
+      [
+        "  ABA  "
+      ],
+      [
+        "   A   "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "thaumcraft:pedestal_ancient",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "mod_id:component_id",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "thaumcraft:jar_normal",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

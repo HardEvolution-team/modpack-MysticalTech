@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"4b1b212e"
+	],
+	tasks: [{
+		uid: "841841f5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:scobel"
+		}]
+	}]
+}

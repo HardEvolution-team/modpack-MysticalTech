@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "location": "contenttweaker:input_fluid_bus_t1_mk1",
+  "traits": {
+    "background": "multiblocked:textures/mk1_bus.png",
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 80,
+        "y": 77,
+        "autoIO": false,
+        "tC": 5000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:bouler_top",
+        "frontTexture": "multiblocked:fluid_input",
+        "backTexture": "multiblocked:fluid_input",
+        "leftTexture": "multiblocked:fluid_input",
+        "rightTexture": "multiblocked:fluid_input",
+        "upTexture": "multiblocked:fluid_input",
+        "downTexture": "multiblocked:fluid_input",
+        "formedAsController": true,
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "canShared": true
+}

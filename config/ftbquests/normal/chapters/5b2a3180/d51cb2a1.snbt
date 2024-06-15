@@ -1,0 +1,25 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	dependencies: [
+		"8230fcf4"
+	],
+	tasks: [{
+		uid: "7fee4699",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rootsBark"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "rootsBark"
+				}
+			}
+		}]
+	}]
+}

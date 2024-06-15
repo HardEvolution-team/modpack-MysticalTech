@@ -1,0 +1,56 @@
+{
+    "entries" :[
+        {
+        
+            "key": "MT_ST0",
+            "name": "Reserch",       
+            "icons": [ "thaumcraft:textures/items/thaumonomicon_cheat.png"],
+            "category": "MT_1", "location": [ 0,0 ],
+            "parents": [ "!gotthaumonomicon" ],
+            "meta": [ "ROUND", "HIDDEN" ],
+            
+            "stages": [
+                    {
+                        "text": "卐",
+                        "required_item":["contenttweaker:bronze_casing", "contenttweaker:forest_stone_dust"]
+                    }
+                ]
+        },
+        {
+        
+        "key": "MT_ST1",
+        "name": "Magic research",       
+        "icons": [ "thaumcraft:textures/blocks/sapling_greatwood.png"],
+        "category": "MT_1", "location": [ -1,1 ],
+        "parents": [ "MT_ST0" ],
+        "meta": [ "ROUND", "HIDDEN" ],
+        
+        "stages": [
+                {
+                    "text": "o_0",
+                    "recipes": ["thaumcraft:a_08"],
+                    "required_item":["contenttweaker:thaum_component_01", "thaumcraft:plank_greatwood"]
+                }
+            ]
+        },
+
+        {
+        
+            "key": "MT_ST2",
+            "name": "Tech research",       
+            "icons": [ "draconicevolution:textures/items/components/draconic_ingot.png"],
+            "category": "MT_1", "location": [ 1,1 ],
+            "parents": [ "MT_ST0" ],
+            "meta": [ "ROUND", "HIDDEN" ],
+            
+            "stages": [
+                    {
+                        "text": "UwU",
+                        "recipes": ["thaumcraft:a_07"],
+                        "required_item":["contenttweaker:bronze_machine_patern_01"]
+                    }
+                ]
+        }
+    ]
+}
+    

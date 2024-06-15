@@ -1,0 +1,582 @@
+{
+  "name": "compressor",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "11",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:128s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:bronze_machine_uppgrade_sp_3\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:355s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidsteam\",Amount:4}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "01",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:163s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:355s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidsteam\",Amount:1}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "12",
+      "duration": 320,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:129s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:bronze_machine_uppgrade_sp_1\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:355s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidsteam\",Amount:2}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "02",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:128s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:320s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidsteam\",Amount:1}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "13",
+      "duration": 280,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:129s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:bronze_machine_uppgrade_sp_2\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:355s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidsteam\",Amount:3}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "03",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:129s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:321s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidsteam\",Amount:1}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "14",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:129s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:bronze_machine_uppgrade_sp_3\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:355s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidsteam\",Amount:4}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "04",
+      "duration": 1200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 9,
+              "matches": [
+                "{id:\"contenttweaker:material_part\",Count:9,Damage:53s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:material_part\",Count:1,Damage:52s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidsteam\",Amount:1}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "05",
+      "duration": 320,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:163s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:bronze_machine_uppgrade_sp_1\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:355s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidsteam\",Amount:2}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "06",
+      "duration": 280,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:163s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:bronze_machine_uppgrade_sp_2\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:355s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidsteam\",Amount:3}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "08",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:163s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:bronze_machine_uppgrade_sp_3\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:355s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidsteam\",Amount:4}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "09",
+      "duration": 320,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:128s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:bronze_machine_uppgrade_sp_1\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:355s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidsteam\",Amount:2}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "10",
+      "duration": 280,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:128s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:bronze_machine_uppgrade_sp_2\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:355s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidsteam\",Amount:3}"
+          }
+        ]
+      }
+    }
+  ]
+}

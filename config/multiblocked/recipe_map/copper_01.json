@@ -1,0 +1,351 @@
+{
+  "name": "01",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "copper_01",
+      "duration": 1200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:cluster_mcopper\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:64s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.15,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mekanism:otherdust\",Count:1,Damage:8s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "tin_02",
+      "duration": 600,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:65s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:129s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.15,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mekanism:otherdust\",Count:1,Damage:8s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "tin_01",
+      "duration": 1200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"geolosys:cluster\",Count:1,Damage:3s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:65s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.15,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mekanism:otherdust\",Count:1,Damage:8s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "iron_03",
+      "duration": 6000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 9,
+              "matches": [
+                "{id:\"minecraft:iron_nugget\",Count:9,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:iron_ingot\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.15,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mekanism:otherdust\",Count:1,Damage:8s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "copper_02",
+      "duration": 600,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:64s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:128s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.15,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mekanism:otherdust\",Count:1,Damage:8s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "iron_01",
+      "duration": 12000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"geolosys:cluster\",Count:3,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"contenttweaker:bloom\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.15,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mekanism:otherdust\",Count:1,Damage:8s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "iron_02",
+      "duration": 6000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:bloom\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"minecraft:iron_nugget\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.45,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"minecraft:iron_nugget\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.15,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:iron_nugget\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.15,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mekanism:otherdust\",Count:1,Damage:8s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "fuelRecipes": [
+    {
+      "uid": "8690798d-0da1-4a9b-a192-ab432b5a54c0",
+      "duration": 1200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:coal\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "066023b9-c7fe-4f88-9eed-e71a3cde2944",
+      "duration": 1200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:coal\",Count:1,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "7dc93fa6-4798-4333-abfb-c6d1e090ae1d",
+      "duration": 2400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:802s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

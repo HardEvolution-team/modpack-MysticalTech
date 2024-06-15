@@ -1,0 +1,204 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  restart_on_load = false
+  name = backquestion_001_menu
+  action = animatebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-left
+  x = 3
+  action = movebutton
+  y = -34
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 216
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-left
+  x = 3
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 216
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-left
+  x = 3
+  action = movebutton
+  y = 15
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 216
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = 3
+  action = movebutton
+  y = -58
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 216
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 346
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 438a85b2-b16d-478f-85ec-407ac8c30d651709930269799
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 169
+  action = deep_customization_element:title_screen_branding
+  actionid = 45dcc4a9-3fd3-4b96-b57b-40b084f3d3a51709930269799
+  y = 467
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 731
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 0f408427-d388-46cb-9183-f36c70ed017e1709930269799
+  y = 509
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = d1f65a0a-117f-4d81-97e3-fc328e7fb1501709930269799
+  y = 232
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 426f5277-8b88-428b-9d3a-c2fbc566b6641709930269799
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 387b3b69-8cc8-42b4-a5d1-174baa07a2bb1709930269799
+  y = 0
+  height = 30
+}
+
+customization {
+  path = resources/mainmenu/mysticaltech.png
+  orientation = top-centered
+  x = -159
+  width = 318
+  actionid = faa21b65-ad4b-4b56-8e4b-72f9d9e11b661709930301217
+  action = addtexture
+  y = 0
+  height = 57
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/Z3NzukYAGP%btnaction_splitter_fm%
+  x = 918
+  width = 24
+  action = addbutton
+  actionid = 7b21e99a-d8cd-42ad-9ca2-c4f9404772921716805892976
+  y = 494
+  label = 
+  backgroundnormal = resources/contenttweaker/textures/fml/bootstrap_discord_icon.png
+  height = 24
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = join_last_world%btnaction_splitter_fm%
+  x = 3
+  width = 216
+  action = addbutton
+  actionid = 1240c0f9-ae7d-45a0-834b-e74951de6bd41717834905867
+  y = 183
+  label = Подключиться к последнему миру
+  height = 20
+}
+

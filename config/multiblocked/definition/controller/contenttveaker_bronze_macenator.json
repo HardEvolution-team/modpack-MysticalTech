@@ -1,0 +1,156 @@
+{
+  "version": 2,
+  "location": "contenttweaker:bronze_macenator",
+  "traits": {
+    "background": "multiblocked:textures/macenator_gui.png",
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 41,
+        "y": 64,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "x": 115,
+        "y": 64,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "x": 138,
+        "y": 64,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 151,
+        "y": 144,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"contenttweaker:bronze_machine_uppgrade_sp_1\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:bronze_machine_uppgrade_sp_2\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:bronze_machine_uppgrade_sp_3\\\",Count:1,Damage:0s}\""
+        ]
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 7,
+        "y": 39,
+        "autoIO": false,
+        "tC": 5000,
+        "w": 18,
+        "h": 54,
+        "fillDir": "DOWN_TO_UP"
+      }
+    ],
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 76,
+      "y": 63,
+      "width": 20,
+      "height": 20,
+      "texture": "multiblocked:textures/progressbars_macenator.png",
+      "fillDirection": 0
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "contenttweaker_block"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:bouler_top",
+        "frontTexture": "multiblocked:bronze_macenator_off",
+        "backTexture": "multiblocked:bouler_top",
+        "leftTexture": "multiblocked:bouler_top",
+        "rightTexture": "multiblocked:bouler_top",
+        "upTexture": "multiblocked:bronze_macenator_top",
+        "downTexture": "multiblocked:bouler_top",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "multiblocked:bouler_top",
+        "frontTexture": "multiblocked:bronze_macenator_on",
+        "backTexture": "multiblocked:bouler_top",
+        "leftTexture": "multiblocked:bouler_top",
+        "rightTexture": "multiblocked:bouler_top",
+        "upTexture": "multiblocked:bronze_macenator_top",
+        "downTexture": "multiblocked:bouler_top",
+        "type": "gregtech"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "macenator",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "contenttweaker:bronze_macenator",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

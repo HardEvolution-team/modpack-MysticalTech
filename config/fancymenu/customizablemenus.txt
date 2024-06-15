@@ -1,0 +1,29 @@
+type = customizablemenus
+
+lumien.custommainmenu.gui.GuiCustom {
+}
+
+net.minecraft.client.gui.GuiWorldSelection {
+}
+
+net.minecraft.client.gui.inventory.GuiContainerCreative {
+}
+
+net.minecraft.client.gui.GuiChat {
+}
+
+com.cleanroommc.multiblocked.api.gui.modular.ModularUIGuiContainer {
+}
+
+net.minecraft.client.gui.inventory.GuiCrafting {
+}
+
+net.minecraft.client.gui.GuiOptions {
+}
+
+net.minecraft.client.gui.GuiLanguage {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
+}
+

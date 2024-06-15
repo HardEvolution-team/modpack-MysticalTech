@@ -1,0 +1,4 @@
+import mods.botania.Apothecary;
+
+mods.botania.Apothecary.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}) * 3, [<thermalfoundation:material:65>, <botania:dye:13>, <contenttweaker:material_part:10>, <contenttweaker:material_part:2>, <thermalfoundation:material:64>]);
+mods.botania.Apothecary.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}), [<roots:cloud_berry>, <roots:cloud_berry>, <roots:cloud_berry>, <roots:cloud_berry>, <roots:cloud_berry>, <roots:runic_dust>, <roots:runic_dust>, <roots:runic_dust>, <roots:runic_dust>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <thermalfoundation:material:129>, <thermalfoundation:material:129>]);

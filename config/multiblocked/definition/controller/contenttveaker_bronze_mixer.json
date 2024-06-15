@@ -1,0 +1,211 @@
+{
+  "version": 2,
+  "location": "contenttweaker:bronze_mixer",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 97,
+      "y": 63,
+      "width": 20,
+      "height": 20,
+      "texture": "multiblocked:textures/progressbars_mixer.png",
+      "fillDirection": 2
+    },
+    "item": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "x": 131,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "x": 149,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "x": 131,
+        "y": 74,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "x": 149,
+        "y": 74,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 65,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 65,
+        "y": 74,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 47,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 47,
+        "y": 74,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 7,
+        "y": 39,
+        "autoIO": false,
+        "tC": 5000,
+        "w": 18,
+        "h": 52,
+        "fillDir": "DOWN_TO_UP",
+        "valid": [
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 27,
+        "y": 56,
+        "autoIO": false,
+        "tC": 2000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL",
+        "valid": []
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 27,
+        "y": 74,
+        "autoIO": false,
+        "tC": 2000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL",
+        "valid": []
+      }
+    ],
+    "background": "multiblocked:textures/mixer_gui.png"
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "contenttweaker_block"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:bouler_top",
+        "frontTexture": "multiblocked:bronze_mixer_off",
+        "backTexture": "multiblocked:bouler_top",
+        "leftTexture": "multiblocked:bouler_top",
+        "rightTexture": "multiblocked:bouler_top",
+        "upTexture": "multiblocked:bronze_mixer_top",
+        "downTexture": "multiblocked:bouler_top",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "multiblocked:bouler_top",
+        "frontTexture": "multiblocked:bronze_mixer_on",
+        "backTexture": "multiblocked:bouler_top",
+        "leftTexture": "multiblocked:bouler_top",
+        "rightTexture": "multiblocked:bouler_top",
+        "upTexture": "multiblocked:bronze_mixer_top",
+        "downTexture": "multiblocked:bouler_top",
+        "type": "gregtech"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "mixer",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "contenttweaker:bronze_mixer",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

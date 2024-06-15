@@ -1,0 +1,148 @@
+{
+  "version": 2,
+  "location": "contenttweaker:bronze_furnace",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 78,
+      "y": 65,
+      "width": 16,
+      "height": 16,
+      "texture": "multiblocked:textures/progress_bar_fuel.png",
+      "fillDirection": 3
+    },
+    "item": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "x": 115,
+        "y": 64,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 41,
+        "y": 64,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 7,
+        "y": 96,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"minecraft:coal\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"minecraft:coal\\\",Count:1,Damage:1s}\""
+        ]
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 7,
+        "y": 38,
+        "autoIO": false,
+        "tC": 5000,
+        "w": 18,
+        "h": 54,
+        "fillDir": "DOWN_TO_UP"
+      }
+    ],
+    "background": "multiblocked:textures/furnace_gui.png"
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "Contenttweaker blocks"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:bouler_top",
+        "frontTexture": "multiblocked:furnace_off",
+        "backTexture": "multiblocked:bouler_top",
+        "leftTexture": "multiblocked:bronze_compressor_side",
+        "rightTexture": "multiblocked:bronze_compressor_side",
+        "upTexture": "multiblocked:bronze_compressor_top",
+        "downTexture": "multiblocked:bouler_top",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "multiblocked:bouler_top",
+        "frontTexture": "multiblocked:furnace_on",
+        "backTexture": "multiblocked:bouler_top",
+        "leftTexture": "multiblocked:bronze_compressor_side",
+        "rightTexture": "multiblocked:bronze_compressor_side",
+        "upTexture": "multiblocked:furnace_top_on",
+        "downTexture": "multiblocked:bouler_top",
+        "type": "gregtech"
+      },
+      "lightEmissive": 6,
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "furnace",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "contenttweaker:bronze_furnace",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"8230fcf4"
+	],
+	tasks: [{
+		uid: "cdccd099",
+		type: "item",
+		items: [{
+			item: "contenttweaker:part_workstump"
+		}]
+	}]
+}

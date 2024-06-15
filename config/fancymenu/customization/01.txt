@@ -1,0 +1,31 @@
+type = menu
+
+customization-meta {
+  identifier = lumien.custommainmenu.gui.GuiCustom
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=959626%
+  action = hidebutton
+}
+
+customization {
+  path = resources/mainmenu/mysticaltech.png
+  orientation = top-left
+  x = -1
+  width = 305
+  actionid = 1282ca42-f890-40fe-a068-f69e1c46d3be1709929941320
+  action = addtexture
+  y = 24
+  height = 48
+}
+

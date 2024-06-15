@@ -1,0 +1,46 @@
+{
+  "name": "9260f6c3-9dbf-407a-9958-3816507dce7b",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "e97da156-4494-43c5-8df6-7a73aeef1df2",
+      "duration": 25,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:forest_stone_dust\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "aer",
+              "amount": 10
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:crystal_essence\",Count:1,Damage:0s,tag:{Aspects:[{amount:1,key:\"terra\"}]}}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

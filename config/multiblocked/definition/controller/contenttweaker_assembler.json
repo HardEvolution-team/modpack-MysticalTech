@@ -1,0 +1,243 @@
+{
+  "version": 2,
+  "location": "contenttweaker:assembler",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 16,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:bouler_top",
+        "frontTexture": "multiblocked:assembler_controler",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "multiblocked:bouler_top",
+        "frontTexture": "multiblocked:assembler_controler_on",
+        "type": "gregtech"
+      },
+      "parent": "idle",
+      "sound": {
+        "sound": "primal:misc_steam",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.1
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "assembler",
+  "catalyst": "{id:\"contenttweaker:bronze_machine_patern_06\",Count:1,Damage:0s}",
+  "consumeCatalyst": "CONSUMED",
+  "noNeedController": true,
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "CCC",
+        "CBC",
+        "CCC"
+      ],
+      [
+        "ACA",
+        "CD@",
+        "ACA"
+      ],
+      [
+        "ACA",
+        "CEF",
+        "ACA"
+      ],
+      [
+        "ACA",
+        "CGC",
+        "ACA"
+      ],
+      [
+        "ACA",
+        "CHC",
+        "ACA"
+      ],
+      [
+        "ACA",
+        "CDC",
+        "ACA"
+      ],
+      [
+        "CCC",
+        "CIC",
+        "CCC"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "contenttweaker:bronze_casing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "contenttweaker:assembler",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "contenttweaker:input_bus_t2_mk2",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "contenttweaker:refractory_bricks",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "contenttweaker:gearbox_mk1",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "contenttweaker:assembler_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "contenttweaker:input_fluid_bus_t1_mk1",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "contenttweaker:assembler_machine",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "contenttweaker:assembler_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "contenttweaker:output_bus_t2_mk1",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ]
+    }
+  }
+}

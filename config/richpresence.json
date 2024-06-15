@@ -1,0 +1,42 @@
+{
+    "_comment": "Avaibles variables:",
+    "_comment2": "%player-name% - Player name.",
+    "_comment3": "%server-connected-player% - Number of players connected to the server.",
+    "_comment4": "%server-max-slot% - Number of server slots",
+    "server-ip": "mc.hypixel.net",
+    "server-port": "25565",
+    "state": "Plays MysticalTech 1.12.2",
+  
+    "application-settings": {
+      "applicationID": "1217495637009109044",
+      "large-image-name": "discord_logo",
+      "large-image-text": "-_-"
+    },
+    "advanced-status-custom": {
+      "onJoinServer": {
+        "enable": true,
+        "showState": true,
+        "message": "In game."
+      },
+      "onQuitServer": {
+        "enable": true,
+        "showState": false,
+        "message": "In mainmenu."
+      },
+      "inPauseMenu": {
+        "enable": true,
+        "showState": true,
+        "message": "In pause menu"
+      },
+      "inMainMenu": {
+        "enable": true,
+        "showState": false,
+        "message": "In mainmenu"
+      },
+      "inInventory": {
+        "enable": true,
+        "showState": true,
+        "message": "In inventory"
+      }
+    }
+  }

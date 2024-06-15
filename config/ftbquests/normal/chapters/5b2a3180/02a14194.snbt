@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "gear",
+	size: 1.3d,
+	tasks: [{
+		uid: "6703b54b",
+		type: "checkmark",
+		icon: "tconstruct:materials 1 50"
+	}]
+}

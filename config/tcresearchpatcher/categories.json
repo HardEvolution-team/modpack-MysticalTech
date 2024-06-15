@@ -1,0 +1,9 @@
+[
+    {
+        "key": "MT_1",
+        "requirement": "!gotthaumonomicon",
+        "icon": "contenttweaker:textures/items/thaum_component_01.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_7.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    }
+]

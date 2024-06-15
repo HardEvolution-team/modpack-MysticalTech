@@ -1,0 +1,17 @@
+{
+	x: 8.0d,
+	y: 0.5d,
+	shape: "hexagon",
+	dependencies: [
+		"c8d33502",
+		"51b9862e"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "ff5651e8",
+		type: "item",
+		items: [{
+			item: "primal_tech:work_stump"
+		}]
+	}]
+}

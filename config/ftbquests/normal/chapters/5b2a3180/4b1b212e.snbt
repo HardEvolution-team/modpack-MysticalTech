@@ -1,0 +1,31 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"02a14194"
+	],
+	tasks: [{
+		uid: "53ed9628",
+		type: "item",
+		items: [{
+			item: "primal:flint_knapp"
+		}]
+	},
+	{
+		uid: "7482a019",
+		type: "item",
+		items: [{
+			item: "primal:plant_tinder"
+		}]
+	},
+	{
+		uid: "36957128",
+		type: "item",
+		items: [{
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "wood"
+			}
+		}]
+	}]
+}
