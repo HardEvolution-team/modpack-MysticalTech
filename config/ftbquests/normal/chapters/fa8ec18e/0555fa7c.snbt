@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: 7.0d,
+	dependencies: [
+		"16cab116"
+	],
+	tasks: [{
+		uid: "b065e5c9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	}]
+}

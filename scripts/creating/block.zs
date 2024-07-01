@@ -10,6 +10,7 @@ mt_block_tab.register();
 var mcopper = VanillaFactory.createBlock("chalcopyrite_ore", <blockmaterial:rock>);
 mcopper.setDropHandler(function(drops, world, position, state, fortune) {
 	
+    drops.clear();
 	drops.add(<item:contenttweaker:cluster_mcopper> % 80);
     drops.add(<item:contenttweaker:cluster_mcopper> % 60);
     drops.add(<item:contenttweaker:cluster_mcopper> % 25);
@@ -19,6 +20,46 @@ mcopper.setDropHandler(function(drops, world, position, state, fortune) {
 });
 mcopper.creativeTab = mt_block_tab;
 mcopper.register();
+
+var mtin = VanillaFactory.createBlock("stannin_ore", <blockmaterial:rock>);
+mtin.setDropHandler(function(drops, world, position, state, fortune) {
+	
+    drops.clear();
+	drops.add(<item:contenttweaker:cluster_stannin> % 80);
+    drops.add(<item:contenttweaker:cluster_stannin> % 60);
+    drops.add(<item:contenttweaker:cluster_stannin> % 25);
+    drops.add(<item:contenttweaker:cluster_stannin> % 15);
+
+	return;
+});
+mtin.creativeTab = mt_block_tab;
+mtin.register();
+
+var miron = VanillaFactory.createBlock("piroxen_ore", <blockmaterial:rock>);
+miron.setDropHandler(function(drops, world, position, state, fortune) {
+	
+    drops.clear();
+	drops.add(<item:contenttweaker:cluster_piroxen> % 80);
+    drops.add(<item:contenttweaker:cluster_piroxen> % 25);
+
+	return;
+});
+miron.creativeTab = mt_block_tab;
+miron.register();
+
+var ncopper = VanillaFactory.createBlock("copper_nugget_ore", <blockmaterial:rock>);
+ncopper.setDropHandler(function(drops, world, position, state, fortune) {
+	
+    drops.clear();
+	drops.add(<item:contenttweaker:cluster_nugget_copper> % 80);
+    drops.add(<item:contenttweaker:cluster_nugget_copper> % 45);
+    drops.add(<item:contenttweaker:cluster_nugget_copper> % 35);
+    drops.add(<item:contenttweaker:cluster_nugget_copper> % 25);
+
+	return;
+});
+ncopper.creativeTab = mt_block_tab;
+ncopper.register();
 
 var refractory_bricks = VanillaFactory.createBlock("refractory_bricks", <blockmaterial:rock>);
 refractory_bricks.creativeTab = mt_block_tab;
@@ -59,3 +100,15 @@ assembler_input.register();
 var assembler_machine = VanillaFactory.createBlock("assembler_machine", <blockmaterial:rock>);
 assembler_machine.creativeTab = mt_block_tab;
 assembler_machine.register();
+
+var cast_casing = VanillaFactory.createBlock("cast_casing", <blockmaterial:iron>);
+cast_casing.creativeTab = mt_block_tab;
+cast_casing.register();
+
+var magic_constraction_mk1 = VanillaFactory.createBlock("magic_constraction_mk1", <blockmaterial:iron>);
+magic_constraction_mk1.creativeTab = mt_block_tab;
+magic_constraction_mk1.register();
+
+var magic_constraction_mk1_iron = VanillaFactory.createBlock("magic_constraction_mk1_iron", <blockmaterial:iron>);
+magic_constraction_mk1_iron.creativeTab = mt_block_tab;
+magic_constraction_mk1_iron.register();

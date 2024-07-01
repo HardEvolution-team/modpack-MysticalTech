@@ -1,0 +1,14 @@
+{
+	x: 12.0d,
+	y: 2.0d,
+	dependencies: [
+		"b151fef3"
+	],
+	tasks: [{
+		uid: "6c90947c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cluster_stannin"
+		}]
+	}]
+}

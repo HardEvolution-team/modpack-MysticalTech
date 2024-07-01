@@ -27,3 +27,6 @@ net.minecraft.client.gui.GuiLanguage {
 net.minecraft.client.gui.GuiMainMenu {
 }
 
+net.minecraft.client.gui.GuiIngameMenu {
+}
+

@@ -2,7 +2,29 @@ import java.util.List
 
 //Workbench
 
-crafting.addShapeless(item('contenttweaker:netherite_ingot'), [item('contenttweaker:netherite_scrap'), item('contenttweaker:netherite_scrap'), item('contenttweaker:netherite_scrap'), item('contenttweaker:netherite_scrap'), item('minecraft:gold_ingot'), item('minecraft:gold_ingot'), item('minecraft:gold_ingot'), item('minecraft:gold_ingot'), item('contenttweaker:material_part', 26)])
+crafting.addShaped(item('contenttweaker:cast_casing'), [
+    [item('thermalfoundation:material'), item('contenttweaker:plate_cast'), item('thermalfoundation:material')],
+    [item('contenttweaker:plate_cast'), item('contenttweaker:bronze_casing'), item('contenttweaker:plate_cast')],
+    [item('thermalfoundation:material'), item('contenttweaker:plate_cast'), item('thermalfoundation:material')]
+])
+
+crafting.addShaped(item('contenttweaker:magic_constraction_mk1_iron'), [
+    [item('contenttweaker:thaum_component_01'), item('minecraft:iron_ingot'), item('contenttweaker:thaum_component_01')],
+    [item('minecraft:iron_ingot'), item('contenttweaker:magic_constraction_mk1'), item('minecraft:iron_ingot')],
+    [item('contenttweaker:thaum_component_01'), item('minecraft:iron_ingot'), item('contenttweaker:thaum_component_01')]
+])
+
+crafting.addShaped(item('contenttweaker:magic_constraction_mk1'), [
+    [item('thaumcraft:ingot', 2), item('contenttweaker:thaum_component_01'), item('thaumcraft:ingot', 2)],
+    [item('contenttweaker:roots_essence_t1'), item('contenttweaker:cast_casing'), item('contenttweaker:roots_essence_t1')],
+    [item('thaumcraft:ingot', 2), item('contenttweaker:thaum_component_01'), item('thaumcraft:ingot', 2)]
+])
+
+crafting.addShaped(item('prospectors:prospector_lowest'), [
+    [null, ore('Plank'), null],
+    [null, item('tconstruct:tool_rod').withNbt(["Material": "wood"]), ore('Plank')],
+    [item('tconstruct:tool_rod').withNbt(["Material": "wood"]), null, null]
+])
 
 crafting.addShaped(item('contenttweaker:unstable_frame') * 5, [
     [item('thaumcraft:crystal_essence').withNbt(["Aspects": [["key": "aqua", "amount": 1]]]), item('contenttweaker:c2_refractory_brick'), item('thaumcraft:crystal_essence').withNbt(["Aspects": [["key": "aqua", "amount": 1]]])],
@@ -14,6 +36,12 @@ crafting.addShaped(item('botania:pool', 2), [
     [item('contenttweaker:material_part', 10), item('contenttweaker:material_part', 10), item('contenttweaker:material_part', 10)],
     [item('botania:livingrock'), item('contenttweaker:pure_daisy_petal'), item('botania:livingrock')],
     [item('botania:livingrock'), item('botania:livingrock'), item('botania:livingrock')]
+])
+
+crafting.addShaped(item('contenttweaker:small_piece_copper'), [
+    [item('industrialupgrade:smalldust', 20), item('industrialupgrade:smalldust', 20), item('industrialupgrade:smalldust', 20)],
+    [item('industrialupgrade:smalldust', 20), item('botania:petal', 14), item('industrialupgrade:smalldust', 20)],
+    [item('industrialupgrade:smalldust', 20), item('industrialupgrade:smalldust', 20), item('industrialupgrade:smalldust', 20)]
 ])
 
 crafting.addShaped(item('contenttweaker:gearbox_mk2'), [
@@ -315,6 +343,12 @@ mods.roots.fey_crafter.recipeBuilder()
     .name('10')
     .input(item('contenttweaker:mana_pure_daisy_petal'), item('contenttweaker:mana_pure_daisy_petal'), item('contenttweaker:mana_pure_daisy_petal'), item('contenttweaker:mana_pure_daisy_petal'), item('contenttweaker:primal_filter'))
     .output(item('contenttweaker:mana_cluster') * 2)
+    .register()
+
+mods.roots.fey_crafter.recipeBuilder()
+    .name('11')
+    .input(item('roots:runic_dust'), item('roots:runic_dust'), item('thaumcraft:crystal_essence').withNbt(["Aspects": [["amount": 1, "key": "terra"]]]), item('thaumcraft:crystal_essence').withNbt(["Aspects": [["amount": 1, "key": "terra"]]]), item('prospectors:prospector_lowest'))
+    .output(item('prospectors:prospector_low'))
     .register()
 
 //Fey crafting

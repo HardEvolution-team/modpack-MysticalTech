@@ -65,6 +65,9 @@ tile.contenttweaker.bronze_casing.name=Bronze casing
 tile.contenttweaker.gearbox_mk1.name=Gearbox
 tile.contenttweaker.gearbox_mk2.name=Steel gearbox
 
+fluid.forest_water=Forest water
+fluid.cleansing_fluid=Cleansing fluid
+
 itemGroup.contenttweaker_block=Contenttweaker: Blocks
 itemGroup.contenttweaker_item=Contenttweaker: Items
 

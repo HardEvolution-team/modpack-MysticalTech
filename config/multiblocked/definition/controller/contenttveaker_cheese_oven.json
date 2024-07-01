@@ -92,7 +92,7 @@
       "parent": "working"
     }
   },
-  "recipeMap": "01",
+  "recipeMap": "copper_01",
   "catalyst": "{id:\"thermalfoundation:material\",Count:1,Damage:163s}",
   "consumeCatalyst": "CONSUMED",
   "noNeedController": false,

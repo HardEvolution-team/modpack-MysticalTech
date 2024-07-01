@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 2.5d,
+	dependencies: [
+		"6dc6830f"
+	],
+	tasks: [{
+		uid: "3fcaf759",
+		type: "item",
+		items: [{
+			item: "minecraft:tallgrass 1 1"
+		}]
+	}]
+}

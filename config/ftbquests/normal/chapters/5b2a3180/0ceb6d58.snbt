@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: 5.0d,
+	dependencies: [
+		"7ead25f7"
+	],
+	tasks: [{
+		uid: "36374d18",
+		type: "item",
+		items: [{
+			item: "contenttweaker:small_piece_copper"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 7.5d,
+	dependencies: [
+		"d272bcd7"
+	],
+	tasks: [{
+		uid: "3458c3f8",
+		type: "item",
+		items: [{
+			item: "roots:infernal_bulb"
+		}]
+	}]
+}

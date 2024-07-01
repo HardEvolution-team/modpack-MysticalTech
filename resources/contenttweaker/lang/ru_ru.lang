@@ -65,6 +65,9 @@ tile.contenttweaker.bronze_casing.name=Бронзовый корпус
 tile.contenttweaker.gearbox_mk1.name=Коробка передач
 tile.contenttweaker.gearbox_mk2.name=Стальная коробка передач
 
+fluid.forest_water=Лесная вода
+fluid.cleansing_fluid=Очищающая жидкость
+
 itemGroup.contenttweaker_block=Contenttweaker: Блоки
 itemGroup.contenttweaker_item=Contenttweaker: Предметы
 

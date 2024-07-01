@@ -2,6 +2,7 @@
 
 import mods.contenttweaker.Color;
 import mods.contenttweaker.MaterialSystem;
+import mods.contenttweaker.MaterialPart;
 
 //Color
 
@@ -13,6 +14,7 @@ var Ordo_C = Color.fromHex("e3f3ff") as Color;
 var Perditio_C = Color.fromHex("1a1a1a") as Color;
 var Logistium_C = Color.fromHex("283e6b") as Color;
 var Creative_C =Color.fromHex("ad318d") as Color;
+var Brass_C = Color.fromHex("d2983a") as Color;
 
 //Color
 
@@ -31,8 +33,10 @@ Ordo.registerParts(["casing", "crushed_ore", "dust", "gear", "ingot", "nugget", 
 var Perditio = MaterialSystem.getMaterialBuilder().setName("Perditio").setColor(Perditio_C).build();
 Perditio.registerParts(["casing", "crushed_ore", "dust", "gear", "ingot", "nugget", "plate", "rod"] as string[]);
 var Logistium = MaterialSystem.getMaterialBuilder().setName("Logistium").setColor(Logistium_C).build();
-Logistium.registerParts(["casing", "crushed_ore", "dust", "gear", "ingot", "nugget", "plate", "rod"] as string[]);
+Logistium.registerParts(["casing", "dust", "gear", "ingot", "nugget", "plate", "rod"] as string[]);
 var Creative = MaterialSystem.getMaterialBuilder().setName("Creative").setColor(Creative_C).build();
-Creative.registerParts(["casing", "crushed_ore", "dust", "gear", "ingot", "nugget", "plate", "rod"] as string[]);
+Creative.registerParts(["dust", "ingot", "nugget", "plate"] as string[]);
+var Brass_R = MaterialSystem.getMaterialBuilder().setName("Brasss").setColor(Brass_C).build();
+Brass_R.registerParts(["casing", "dust", "gear", "ingot", "nugget", "plate", "rod"] as string[]);
 
 //Material

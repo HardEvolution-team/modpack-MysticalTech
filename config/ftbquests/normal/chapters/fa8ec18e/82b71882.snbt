@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 15.0d,
+	dependencies: [
+		"877c471a"
+	],
+	tasks: [{
+		uid: "c9e23585",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mana_pure_daisy_petal"
+		}]
+	}]
+}

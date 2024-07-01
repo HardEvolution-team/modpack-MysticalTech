@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 7.0d,
+	dependencies: [
+		"fa1e4bcc"
+	],
+	tasks: [{
+		uid: "45c1496e",
+		type: "item",
+		items: [{
+			item: "roots:runic_dust"
+		}]
+	}]
+}

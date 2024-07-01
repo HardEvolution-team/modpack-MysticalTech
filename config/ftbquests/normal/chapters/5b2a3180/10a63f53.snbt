@@ -1,0 +1,14 @@
+{
+	x: 7.0d,
+	y: 3.5d,
+	dependencies: [
+		"af90e9d4",
+		"8e6fac74"
+	],
+	tasks: [{
+		uid: "cd228a54",
+		type: "checkmark",
+		title: "1-Magic",
+		icon: "contenttweaker:roots_essence_t1"
+	}]
+}

@@ -280,3 +280,47 @@ var mana_item =[
 for item_mana in mana_item {
     VanillaFactory.createItem(item_mana).register();
 }
+
+var cluster_stannin = VanillaFactory.createItem("cluster_stannin");
+cluster_stannin.creativeTab = mt_item_tab;
+cluster_stannin.register();
+
+var cluster_piroxen = VanillaFactory.createItem("cluster_piroxen");
+cluster_piroxen.creativeTab = mt_item_tab;
+cluster_piroxen.register();
+
+var piroxen_dust = VanillaFactory.createItem("piroxen_dust");
+piroxen_dust.creativeTab = mt_item_tab;
+piroxen_dust.register();
+
+var plate_cast = VanillaFactory.createItem("plate_cast");
+plate_cast.creativeTab = mt_item_tab;
+plate_cast.register();
+
+var cluster_nugget_copper = VanillaFactory.createItem("cluster_nugget_copper");
+cluster_nugget_copper.creativeTab = mt_item_tab;
+cluster_nugget_copper.register();
+
+var wooden_cellulose = VanillaFactory.createItem("wooden_cellulose");
+wooden_cellulose.creativeTab = mt_item_tab;
+wooden_cellulose.register();
+
+var sugar_canes_cellulose = VanillaFactory.createItem("sugar_canes_cellulose");
+sugar_canes_cellulose.creativeTab = mt_item_tab;
+sugar_canes_cellulose.register();
+
+var nugget_copper_clean = VanillaFactory.createItem("nugget_copper_clean");
+nugget_copper_clean.creativeTab = mt_item_tab;
+nugget_copper_clean.register();
+
+var sphalerite_dust = VanillaFactory.createItem("sphalerite_dust");
+sphalerite_dust.creativeTab = mt_item_tab;
+sphalerite_dust.register();
+
+var small_sphalerite = VanillaFactory.createItem("small_sphalerite");
+small_sphalerite.creativeTab = mt_item_tab;
+small_sphalerite.register();
+
+var sphalerite_dust_clean = VanillaFactory.createItem("sphalerite_dust_clean");
+sphalerite_dust_clean.creativeTab = mt_item_tab;
+sphalerite_dust_clean.register();

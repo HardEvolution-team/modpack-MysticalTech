@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	dependencies: [
+		"2667c04c"
+	],
+	tasks: [{
+		uid: "7c495409",
+		type: "item",
+		items: [{
+			item: "primal:flint_shears"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

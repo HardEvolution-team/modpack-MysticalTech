@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"2667c04c"
+	],
+	tasks: [{
+		uid: "d1c2a225",
+		type: "item",
+		items: [{
+			item: "roots:wood_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

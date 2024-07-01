@@ -1,0 +1,14 @@
+{
+	title: "Kiln",
+	x: 8.5d,
+	y: 0.0d,
+	dependencies: [
+		"10a63f53"
+	],
+	tasks: [{
+		uid: "2246f024",
+		type: "checkmark",
+		title: "kiln",
+		icon: "primal_tech:clay_kiln"
+	}]
+}

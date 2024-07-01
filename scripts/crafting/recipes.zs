@@ -5,6 +5,9 @@ recipes.removeAll();
 furnace.removeAll();
 //Don't touch me!
 //#Add
+recipes.addShapeless(<industrialupgrade:smalldust:20> * 2, [<contenttweaker:primal_filter>.anyDamage().transformDamage(2), <primal:bucket_clay>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <contenttweaker:cluster_mcopper>]);
+recipes.addShapeless(<industrialupgrade:smalldust:27> * 2, [<contenttweaker:primal_filter>.anyDamage().transformDamage(2), <primal:bucket_clay>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <contenttweaker:cluster_stannin>]);
+
 recipes.addShaped(<contenttweaker:bronze_machine_patern_05>, [[<industrialupgrade:forge_hammer>.anyDamage().transformDamage(10), <minecraft:coal>],[<contenttweaker:bronze_machine_patern_01>, <minecraft:coal>], [<minecraft:furnace>, <minecraft:coal>]]);
 recipes.addShaped(<contenttweaker:bronze_machine_patern_02>, [[<industrialupgrade:forge_hammer>.anyDamage().transformDamage(5)],[<contenttweaker:bronze_machine_patern_01>], [<horsepower:hand_grindstone>]]);
 recipes.addShaped(<contenttweaker:bronze_machine_patern_04>, [[<industrialupgrade:forge_hammer>.anyDamage().transformDamage(5)],[<contenttweaker:bronze_machine_patern_01>], [<primal:bucket_clay>.noReturn()]]);

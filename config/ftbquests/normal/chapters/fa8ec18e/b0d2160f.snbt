@@ -1,0 +1,39 @@
+{
+	icon: "contenttweaker:cheese_oven",
+	x: 10.0d,
+	y: 7.0d,
+	dependencies: [
+		"0555fa7c"
+	],
+	tasks: [{
+		uid: "7552aeb8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cheese_oven"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0eaf011e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:refractory_bricks"
+		}],
+		count: 16L
+	},
+	{
+		uid: "ae21fc92",
+		type: "item",
+		items: [{
+			item: "minecraft:brick_block"
+		}],
+		count: 12L
+	},
+	{
+		uid: "75c5ae78",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 163"
+		}]
+	}]
+}

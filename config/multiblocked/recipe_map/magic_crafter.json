@@ -1,6 +1,6 @@
 {
   "name": "magic_crafter",
-  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "progressTexture": "multiblocked:textures/progress_bar_fuel.png",
   "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
@@ -100,34 +100,34 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:4,Damage:355s}"
+                "{id:\"contenttweaker:material_part\",Count:4,Damage:34s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 2,
+              "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:refractory_bricks\",Count:2,Damage:0s}"
+                "{id:\"contenttweaker:material_part\",Count:4,Damage:42s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:bronze_casing\",Count:1,Damage:0s}"
+                "{id:\"contenttweaker:thaum_component_01\",Count:4,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:bronze_machine_patern_03\",Count:1,Damage:0s}"
+                "{id:\"contenttweaker:roots_essence_t1\",Count:4,Damage:0s}"
               ]
             }
           }
@@ -140,7 +140,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:bronze_compressor\",Count:1,Damage:0s}"
+                "{id:\"thaumcraft:salis_mundus\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -185,18 +185,18 @@
           {
             "chance": 1.0,
             "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"contenttweaker:broken_forest_stone_dust\",Count:16,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
               "amount": 4,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:4,Damage:355s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"contenttweaker:refractory_bricks\",Count:2,Damage:0s}"
+                "{id:\"contenttweaker:thaum_component_01\",Count:4,Damage:0s}"
               ]
             }
           },
@@ -205,16 +205,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:bronze_casing\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:bronze_machine_patern_04\",Count:1,Damage:0s}"
+                "{id:\"contenttweaker:sphalerite_dust_clean\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -225,9 +216,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 2,
               "matches": [
-                "{id:\"contenttweaker:bronze_mixer\",Count:1,Damage:0s}"
+                "{id:\"contenttweaker:material_part\",Count:2,Damage:42s}"
               ]
             }
           }
@@ -272,24 +263,6 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:bronze_machine_patern_05\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:bronze_casing\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
               "amount": 4,
               "matches": [
                 "{id:\"thermalfoundation:material\",Count:4,Damage:355s}"
@@ -310,7 +283,16 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"minecraft:furnace\",Count:1,Damage:0s}"
+                "{id:\"contenttweaker:bronze_casing\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:bronze_machine_patern_03\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -323,7 +305,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:bronze_furnace\",Count:1,Damage:0s}"
+                "{id:\"contenttweaker:bronze_compressor\",Count:1,Damage:0s}"
               ]
             }
           }

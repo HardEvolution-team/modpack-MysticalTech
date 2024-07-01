@@ -1,4 +1,5 @@
 import mods.primaltech.ClayKiln;
+import mods.primaltech.StoneAnvil;
 
 mods.primal.Axe.removeRecipe("split_log_jungle");
 mods.primal.Axe.removeRecipe("split_log_oak");
@@ -20,3 +21,5 @@ mods.primaltech.ClayKiln.addRecipe(<contenttweaker:c1_refractory_brick>, <conten
 mods.primaltech.ClayKiln.addRecipe(<contenttweaker:c2_refractory_brick>, <contenttweaker:c2_dust_refrectory>, 12000);
 mods.primaltech.ClayKiln.addRecipe(<minecraft:stone>, <minecraft:cobblestone>, 1800);
 mods.primaltech.ClayKiln.addRecipe(<minecraft:stone:6>, <minecraft:stone:5>, 1800);
+mods.primaltech.StoneAnvil.addRecipe(<thermalfoundation:material:193>, <contenttweaker:small_piece_tin>);
+mods.primaltech.StoneAnvil.addRecipe(<thermalfoundation:material:192>, <contenttweaker:small_piece_copper>);

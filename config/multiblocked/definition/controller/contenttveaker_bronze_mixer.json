@@ -49,7 +49,7 @@
         "cIO": 0,
         "gIO": 2,
         "mIO": 0,
-        "x": 65,
+        "x": 47,
         "y": 56,
         "autoIO": false
       },
@@ -58,6 +58,14 @@
         "gIO": 2,
         "mIO": 0,
         "x": 65,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 47,
         "y": 74,
         "autoIO": false
       },
@@ -65,15 +73,7 @@
         "cIO": 0,
         "gIO": 2,
         "mIO": 0,
-        "x": 47,
-        "y": 56,
-        "autoIO": false
-      },
-      {
-        "cIO": 0,
-        "gIO": 2,
-        "mIO": 0,
-        "x": 47,
+        "x": 65,
         "y": 74,
         "autoIO": false
       }
@@ -81,7 +81,7 @@
     "fluid": [
       {
         "cIO": 0,
-        "gIO": 2,
+        "gIO": 0,
         "mIO": 0,
         "x": 7,
         "y": 39,
@@ -89,9 +89,7 @@
         "tC": 5000,
         "w": 18,
         "h": 52,
-        "fillDir": "DOWN_TO_UP",
-        "valid": [
-        ]
+        "fillDir": "DOWN_TO_UP"
       },
       {
         "cIO": 0,
@@ -103,8 +101,7 @@
         "tC": 2000,
         "w": 18,
         "h": 18,
-        "fillDir": "ALWAYS_FULL",
-        "valid": []
+        "fillDir": "ALWAYS_FULL"
       },
       {
         "cIO": 0,
@@ -116,8 +113,7 @@
         "tC": 2000,
         "w": 18,
         "h": 18,
-        "fillDir": "ALWAYS_FULL",
-        "valid": []
+        "fillDir": "ALWAYS_FULL"
       }
     ],
     "background": "multiblocked:textures/mixer_gui.png"

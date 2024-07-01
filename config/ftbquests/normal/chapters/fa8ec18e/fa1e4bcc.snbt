@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: 5.5d,
+	dependencies: [
+		"28ebacc0"
+	],
+	tasks: [{
+		uid: "e407fec6",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "terra",
+					amount: 1
+				}]
+			}
+		}]
+	}]
+}

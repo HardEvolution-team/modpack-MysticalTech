@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 7.5d,
+	dependencies: [
+		"d272bcd7",
+		"5bf281e5",
+		"bb60d55f"
+	],
+	tasks: [{
+		uid: "b0a17380",
+		type: "item",
+		items: [{
+			item: "roots:fey_crafter"
+		}]
+	}]
+}

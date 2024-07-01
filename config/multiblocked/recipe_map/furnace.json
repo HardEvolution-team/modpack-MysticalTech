@@ -36,7 +36,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"water\",Amount:1}"
+            "content": "{FluidName:\"iufluidsteam\",Amount:1}"
           }
         ]
       }
@@ -65,6 +65,44 @@
               "amount": 1,
               "matches": [
                 "{id:\"thermalfoundation:material\",Count:1,Damage:128s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidsteam\",Amount:1}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "12",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"contenttweaker:material_part\",Count:2,Damage:69s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:material_part\",Count:1,Damage:71s}"
               ]
             }
           }

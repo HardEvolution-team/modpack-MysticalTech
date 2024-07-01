@@ -1,5 +1,6 @@
 import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.Crucible;
+import mods.thaumcraft.SalisMundus;
 
 
 
@@ -14,3 +15,9 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("b_01", "", 70, [<aspect:te
 
 
 mods.thaumcraft.Crucible.registerRecipe("c_01", "", <contenttweaker:material_part:50>, <thermalfoundation:material:65>, [<aspect:instrumentum> * 15, <aspect:praecantatio> * 5, <aspect:perditio> * 3, <aspect:logistium> * 25]);
+
+//salis mundus
+
+mods.thaumcraft.SalisMundus.addSingleConversion(<blockstate:contenttweaker:magic_constraction_mk1_iron>.block, <thaumcraft:crucible>);
+
+//salis mundus

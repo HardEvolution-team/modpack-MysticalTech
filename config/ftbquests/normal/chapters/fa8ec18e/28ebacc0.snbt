@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	dependencies: [
+		"d477497e"
+	],
+	tasks: [{
+		uid: "99177f0a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:broken_forest_stone_dust"
+		}]
+	}]
+}

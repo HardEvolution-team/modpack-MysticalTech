@@ -1,0 +1,13 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"10a63f53"
+	],
+	tasks: [{
+		uid: "d10d7aa4",
+		type: "checkmark",
+		title: "Continue",
+		icon: "contenttweaker:roots_essence_t1"
+	}]
+}
